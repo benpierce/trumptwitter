@@ -1,6 +1,6 @@
 # TrumpTwitter Bot 1.0
 
-*Ben Pierce  |  SCS_3546_007 (Deep Learning)  |  University of Toronto  |    Semester 1, 2020*
+*Ben Pierce  |  SCS3546 (Deep Learning)  |  University of Toronto  |    Semester 1, 2020*
 
 **Data Source**: Donald Trump's Twitter feed (http://www.trumptwitterarchive.com/archive)
 
