@@ -55,6 +55,12 @@ Despite only having a validation accuracy of about 20%, this model ended up prod
 
 ![Loss & Accuracy over Epoch](https://github.com/benpierce/trumptwitter/raw/master/experiment1_chart.png)
 
+Sample Tweets:
+
+"*king salman of saudi arabia just called to express it sincere condolences and paying to should world news that our great chasing of impeachment*"
+"*jeff van drew is a courageous because of left now get was nothing than tribute and but interview this the the very hoax! it my knew far judge*"
+"*crazy nancy pelosi should spend our about the what about we corrupt! this crime nothing work all more vets our his the biggest to the crime house*"
+
 # Word-based Rolling Sequences
 
 This was the worst performing model, as it overfit right away and ended with a low validation accuracy.
