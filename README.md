@@ -51,17 +51,25 @@ to | welcome | our | great | Cabinet | this
 
 # Word-based Padded Sequences
 
+Despite only having a validation accuracy of about 20%, this model ended up producing the most realistic tweets. This is likely because the model predicts the next word, based on words it's already seen. Additionally, padded sequences ensures there are more word combinations in the training data, as opposed to rolling sequences which allowed this model to continually improve its accuracy rather than overfit or underfit.
+
 ![Loss & Accuracy over Epoch](https://github.com/benpierce/trumptwitter/raw/master/experiment1_chart.png)
 
 # Word-based Rolling Sequences
+
+This was the worst performing model, as it overfit right away and ended with a low validation accuracy.
 
 ![Loss & Accuracy over Epoch](https://github.com/benpierce/trumptwitter/raw/master/experiment2_chart.png)
 
 # Character-based Padded Sequences
 
+This model looks like it has a lot of potential given the high accuracy (nearly 85%) and the great learning rate, as seen in the below charts. Unfortunately, many of the tweets it produced ended up containing non-sensical words that don't exist in the English vocabulary.
+
 ![Loss & Accuracy over Epoch](https://github.com/benpierce/trumptwitter/raw/master/experiment3_chart.png)
 
-# Word-based Rolling Sequences
+# Character-based Rolling Sequences
+
+This model performed very mediocre with a 50% validation accuracy making this model less attractive than the one using padded sequences.
 
 ![Loss & Accuracy over Epoch](https://github.com/benpierce/trumptwitter/raw/master/experiment4_chart.png)
 
