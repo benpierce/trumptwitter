@@ -30,7 +30,7 @@ this | afternoon | for | our | first | meeting
 
 **Padded Sequences**
 
-Padded sequences can be thought of as two sliding windows across a series of text: the first window will be across each word or character and another sliding window for n to sequence length. This means that there is going to be a lot of additional training data produced from each series of text and it's going to require a lot more additional RAM. For the phrase "*Proud to welcome our great Cabinet this afternoon for our first meeting*" we ended up with 7 samples in our training set; however, for padded sequences we're going to get 49 samples! An abbreviated result looks like this:
+Padded sequences can be thought of as two sliding windows across a series of text: the first window will be across each word or character and another sliding window for n to sequence length. This means that there is going to be a lot of additional training data produced from each series of text and it's going to require a lot more additional RAM. For the phrase "*Proud to welcome our great Cabinet this afternoon for our first meeting*" we ended up with 7 samples in our training set; however, for padded sequences we're going to get 49 samples! An abbreviated result looks like this (note, in actuality the words are tokenized into floats):
 
 Sequence1 | Sequence2 | Sequence3 | Sequence4 | Sequence5 | Label
 --- | --- | --- | --- | --- | ---
