@@ -58,7 +58,9 @@ Despite only having a validation accuracy of about 20%, this model ended up prod
 Sample Tweets:
 
 "*king salman of saudi arabia just called to express it sincere condolences and paying to should world news that our great chasing of impeachment*"
+
 "*jeff van drew is a courageous because of left now get was nothing than tribute and but interview this the the very hoax! it my knew far judge*"
+
 "*crazy nancy pelosi should spend our about the what about we corrupt! this crime nothing work all more vets our his the biggest to the crime house*"
 
 # Word-based Rolling Sequences
@@ -67,17 +69,41 @@ This was the worst performing model, as it overfit right away and ended with a l
 
 ![Loss & Accuracy over Epoch](https://github.com/benpierce/trumptwitter/raw/master/experiment2_chart.png)
 
+Sample Tweets:
+
+"*trump economy breaks holiday shopping border african-american and rigged range few like out backs! merkel in fought of @mercedesschlapp we fortune*"
+
+"*freed taliban hostages arrive in 90% है so the public up the border our have stay to national asked you all what has done happened! to pumping*"
+
+"*only 25 percent want the never easily and the failing boom criminals from obligations on no with a many states hunt more never told with money*"
+
 # Character-based Padded Sequences
 
 This model looks like it has a lot of potential given the high accuracy (nearly 85%) and the great learning rate, as seen in the below charts. Unfortunately, many of the tweets it produced ended up containing non-sensical words that don't exist in the English vocabulary.
 
 ![Loss & Accuracy over Epoch](https://github.com/benpierce/trumptwitter/raw/master/experiment3_chart.png)
 
+Sample Tweets:
+
+"*so they now convict rogerita wosniag rere or hos  nimer to sleepy joe!s campaign hoping to save face it won't work! https://www.usa.gov/*"
+
+"*amazing analysis & reporting! https://www.usa.gov/ to  he ltsd nn tmerrca and the world america will get it done!  winh siat r gitn nuper t*"
+
+"*congressman @michaelcburgess has done aena dou to the average americana wy to 129 miles and by early next year we will have 500 miles comple*"
+
 # Character-based Rolling Sequences
 
 This model performed very mediocre with a 50% validation accuracy making this model less attractive than the one using padded sequences.
 
 ![Loss & Accuracy over Epoch](https://github.com/benpierce/trumptwitter/raw/master/experiment4_chart.png)
+
+Sample Tweets:
+
+"*the noble people of iran—whonker hisennes ahe aryen fou the dort res to the senate the best and on a very big tre dom to the senate the best*"
+
+"*she will go down as the president in the house and the dort an the senate the democrat prosicule saadeing the president and the tmendment th*"
+
+"*nancy pelosi wants congress to the senate the best and on the party and the fest and and montinuetton poriticil the dorld and the dort an th*"
 
 ---
 
