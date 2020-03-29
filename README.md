@@ -52,3 +52,17 @@ to | welcome | our | great | Cabinet | this
 
 
 ---
+
+# Conclusion
+
+Padded sequences outperformed rolling sequences in both the word-based and character-based models.
+
+Despite the lower validation accuracy for word-based models compared to character-based models, world-base models generated more coherent tweets due to the fact that the model was predicting known words rather than character sequences, the latter of which could result in non-sensical words that don't exist in the English vocabulary.
+
+Disappointingly, many of the generated tweets weren't very good and many of them are incoherent. There are a few explainations for this:
+
+* Due to Twitter's character limits, the training text has a lot of grammatical errors to begin with. This is further compounded by hashtags, uri's, and other atypical text that makes it very difficult for a model to be trained. 
+* Much more training data could have been used, but Google Colab doesn't allow Canadians to pay for increased capacity, therefore we're stuck using their basic virtual environments and can only load a small subset of data for training.
+* Google Colab's basic virtual enviroments are also not very stable. Training for a long period of time, over a longer number of epochs may have helped, but Colab would frequently crash (especially if left to run for more than an hour).
+
+I believe that with a more powerful and more stable environment, **a word-based, padded-sequence**, model run against the entire volume of training data would have produced very realistic tweets and that more work can be done in this area if and when Google Colab resource limits are increased.
