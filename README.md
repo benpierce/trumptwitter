@@ -49,7 +49,21 @@ to | welcome | our | great | Cabinet | this
 0 | 0 | 0 | our | first | meeting
 0 | 0 | 0 | 0 | first | meeting
 
+# Word-based Padded Sequences
 
+![Loss & Accuracy over Epoch](https://github.com/benpierce/trumptwitter/raw/master/experiment1_chart.png)
+
+# Word-based Rolling Sequences
+
+![Loss & Accuracy over Epoch](https://github.com/benpierce/trumptwitter/raw/master/experiment2_chart.png)
+
+# Character-based Padded Sequences
+
+![Loss & Accuracy over Epoch](https://github.com/benpierce/trumptwitter/raw/master/experiment3_chart.png)
+
+# Word-based Rolling Sequences
+
+![Loss & Accuracy over Epoch](https://github.com/benpierce/trumptwitter/raw/master/experiment4_chart.png)
 
 ---
 
